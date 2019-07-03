@@ -45,4 +45,11 @@ describe("Tests dictionary ADT", () => {
     dictionary.insert("james", "07039222222");
     expect(dictionary.length).toEqual(2);
   });
+
+  test("Sort", () => {
+    dictionary.insert("josiah", "0703922095");
+    dictionary.insert("james", "07039222222");
+    expect(dictionary.dict).toEqual({"james": "07039222222", "josiah": "0703922095"});
+    dictionary.sort();
+  });
 });

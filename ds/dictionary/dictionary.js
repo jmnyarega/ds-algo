@@ -44,5 +44,18 @@ class Dictionary {
     console.log(this.dict);
   }
 
+  /*
+   * Sorting shouldn't be an issue in dictionaries...
+   * You don't need to sort items in a dictionary ...
+   */
+  sort() {
+    const sortedDictKeys = Object.keys(this.dict).sort();
+    const sortedDict = {};
+    for (let x of sortedDictKeys) {
+      sortedDict[x] = x;
+    }
+    this.dict = sortedDict;
+  }
+
 }
 module.exports = Dictionary;
