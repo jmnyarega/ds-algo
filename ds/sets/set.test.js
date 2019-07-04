@@ -29,18 +29,7 @@ describe("Tests dictionary ADT", () => {
     expect(set.length).toEqual(0);
   });
 
-  test("union", () => {
-    const set1 = new Set();
-    set1.add(1);
-    set1.add(2);
-    set1.add(3);
-    set.add(4);
-    set.add(5);
-    set.add(1);
-    expect(set.union(set1).datastore).toEqual([2,3,4,5,1]);
-  });
-
-  test("length", () => {
+   test("length", () => {
     set.add("josiah");
     set.add("james");
     set.add("james");
@@ -56,6 +45,17 @@ describe("Tests dictionary ADT", () => {
     set.add(3);
     set.add(1);
     expect(set.interset(set1).datastore).toEqual([3, 1]);
+  });
+ 
+  test("union", () => {
+    const set1 = new Set();
+    set1.add(1);
+    set1.add(2);
+    set1.add(3);
+    set.add(4);
+    set.add(5);
+    set.add(1);
+    expect(set.union(set1).datastore).toEqual([2,3,4,5,1]);
   });
 
   test("subset", () => {
