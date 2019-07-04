@@ -27,13 +27,8 @@ class Dictionary {
   }
 
   clear() {
-    this.length = 0;
-    for (let x in this.dict) {
-      if (Object.hasOwnProperty(x)) {
-        delete this.dict[x];
-      }
-    }
     this.dict = {};
+    this.length = 0;
   }
 
   isEmpty() {
