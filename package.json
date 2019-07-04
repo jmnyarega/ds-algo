@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jmnyarega/ds-algo-in-js#readme",
   "devDependencies": {
+    "eslint": "^6.0.1",
     "jest": "^24.8.0"
   }
 }
