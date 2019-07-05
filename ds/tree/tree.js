@@ -8,7 +8,6 @@ class Node {
   show() {
    return this.data;
   }
-
 }
 
 
@@ -17,7 +16,6 @@ class BST {
     this.root = null;
   }
 
-  // can be made better. This algorithm only inserts data on one child node :waaat ??
   insert(data) {
     const node = new Node(data, null, null);
     if (this.root === null) {
@@ -99,7 +97,35 @@ class BST {
   /**
    * Traverse level by level
    */
-  breadthFirstSearch() {}
+  breadthFirstTraversal(node) {
+    let height = this.height(node.root);
+    for (let i = 0; i < height + 1; i++) {
+      this.nodeLevel(node, i);
+    }
+  }
+
+  nodeLevel(node, level) {
+    if (node) return null;
+    else if (level === 1) {
+      console.log(node.data)
+    } else {
+      this.nodeLevel(node.left, level - 1);
+      this.nodeLevel(node.right,level - 1);
+    }
+  }
+
+  height(node) {
+    if (!node) return 0;
+    else {
+      let leftHeight = this.height(node.left);
+      let rightHeight = this.height(node.right);
+      if (leftHeight > rightHeight) {
+        return leftHeight + 1;
+      } else {
+        return rightHeight + 1;
+      }
+    }
+  }
 
   /*
    * You only need to traverse through the left child nodes. until you get to the last node.
@@ -151,12 +177,10 @@ class BST {
       if (!node.left) {
         return node.right;
       }
-
       // has no right child
       if (!node.right) {
         return node.left;
       }
-
       // node has two children
       let leastElement = this.getMin(node.right);
       node.data = leastElement;
@@ -172,11 +196,18 @@ class BST {
   }
 
   remove(data) {
-    root = this.removeNode(this.root, data);
+    this.removeNode(this.root, data);
   }
 
 }
+const bst = new BST();
+bst.insert(1);
+bst.insert(2);
+bst.insert(3);
+bst.insert(4);
+bst.insert(5);
 
+bst.breadthFirstTraversal(bst);
 /* @TODO @josiah
  * - Add a function to the BST class that counts the number of nodes in a BST
  * - Add a function to the BST class that counts the number of edges in a BST
