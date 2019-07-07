@@ -211,5 +211,4 @@ bst.breadthFirstTraversal(bst);
 /* @TODO @josiah
  * - Add a function to the BST class that counts the number of nodes in a BST
  * - Add a function to the BST class that counts the number of edges in a BST
- * - Add a max function to the BST class that finds the max value in the BST
  */
