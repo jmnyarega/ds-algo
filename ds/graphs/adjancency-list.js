@@ -3,6 +3,7 @@ class Graph {
   constructor(vertices) {
     this.vertices = this.vertices;
     this.marked = [];
+    this.edgeTo = [];
     this.adj = [];
     for (let i = 0; i < vertices; ++i) {
       this.adj.push([i]);
@@ -19,7 +20,7 @@ class Graph {
     this.adj[w].push(v);
   }
 
- graphDfs(v) {
+  graphDfs(v) {
    this.marked[v] = true; // v should be the starting vertex, so we mark it as visited
     if (this.adj[v] !== undefined) {
       console.log(`${v} has been  Visited`);
@@ -31,13 +32,30 @@ class Graph {
       }
     }
   }
+  graphBfs(n) {
+    let queue = [];
+    this.marked[n] = true;
+    queue.push(n);
+    while(queue.length > 0) {
+      let v = queue.shift(); // remove from front... 
+      console.log(`${v} has been visited`);
+      for(let i in this.adj) { // looping through vertices, don't want to ran out of index
+        if (!this.marked[i]) {
+          this.edgeTo[i] = v;
+          this.marked[i] = true;
+          queue.push(i);
+        }
+      }
+    }
+    // code here
+  }
 
 }
 
 const graph = new Graph(5);
 graph.addEdge(0, 1);
-graph.addEdge(0, 2);
+graph.addEdge(1, 2);
 graph.addEdge(1, 3);
 graph.addEdge(2, 4);
 graph.showGraph(); // returns graph
-graph.graphDfs(0);
+graph.graphBfs(0);

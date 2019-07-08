@@ -5,16 +5,16 @@
 class Graph {
 
   constructor() {
-    this.adj = Array(10);
+    this.adj = Array(5);
     this.marked = []; // to be used in dfs
-    for (let i = 0; i < 10; i++) {
-      this.adj[i] = Array(10);
-      this.marked[i] = false;
+    for (let i = 0; i < 5; i++) {
+      this.adj[i] = Array(5);
+      this.marked[i] = 0;
     }
   }
 
   addEdges(i, j) {
-    this.adj[i][j] = true;
+    this.adj[i][j] = 1;
     return this.adj;
   }
 
