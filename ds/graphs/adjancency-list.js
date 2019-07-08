@@ -1,9 +1,19 @@
+/* 
+ * Diagraph
+ * multigraph -> A graph with multiple edges
+ * general graph(pseudograph) -> both self-loops and parallel edges allowed
+ * parallel edges/multi edges -> Two or more edges having the same pair of end vertices
+ * simple graph -> A graph with neither parallel edges nor self loops
+ * Weighted -> directed/undirected graph with real numbers assigned to each edge.
+ * Wighted directed graphs are ofted refered to as a networks
+ *
+ */
+
 class Graph {
 
   constructor(vertices) {
     this.vertices = this.vertices;
     this.marked = [];
-    this.edgeTo = [];
     this.adj = [];
     for (let i = 0; i < vertices; ++i) {
       this.adj.push([i]);
@@ -32,6 +42,7 @@ class Graph {
       }
     }
   }
+
   graphBfs(n) {
     let queue = [];
     this.marked[n] = true;
@@ -41,21 +52,18 @@ class Graph {
       console.log(`${v} has been visited`);
       for(let i in this.adj) { // looping through vertices, don't want to ran out of index
         if (!this.marked[i]) {
-          this.edgeTo[i] = v;
           this.marked[i] = true;
           queue.push(i);
         }
       }
     }
-    // code here
   }
-
 }
 
 const graph = new Graph(5);
 graph.addEdge(0, 1);
-graph.addEdge(1, 2);
+graph.addEdge(0, 2);
 graph.addEdge(1, 3);
 graph.addEdge(2, 4);
 graph.showGraph(); // returns graph
-graph.graphBfs(0);
+// graph.graphBfs(0);
