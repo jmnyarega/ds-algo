@@ -1,4 +1,5 @@
 class Node {
+
   constructor(data, left, right) {
     this.data = data;
     this.left = left;
@@ -8,10 +9,11 @@ class Node {
   show() {
    return this.data;
   }
+
 }
 
-
 class BST {
+
   constructor() {
     this.root = null;
   }
