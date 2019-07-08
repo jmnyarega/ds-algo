@@ -5,26 +5,41 @@
 class Graph {
 
   constructor() {
-    this.Adj = Array(10);
+    this.adj = Array(10);
+    this.marked = []; // to be used in dfs
     for (let i = 0; i < 10; i++) {
-      this.AdjencencyMatrix[i] = Array(10);
+      this.adj[i] = Array(10);
+      this.marked[i] = false;
     }
   }
 
   addEdges(i, j) {
-    this.Adj[i][j] = true;
-    return this.Adj;
+    this.adj[i][j] = true;
+    return this.adj;
   }
 
   showGraph() {
-    return this.Adj;
+    return this.adj;
+  }
+
+  graphDfs(v) {
+    this.marked[v] = true;
+    if (this.adj[v] !== undefined) {
+      console.log(`${v} has been  Visited`);
+    }
+    for (let i in this.adj[v]) {
+      if (!this.marked[i]) {
+        this.graphDfs(i);
+      }
+    }
   }
 
 }
 
 const graph = new Graph();
 graph.addEdges(0, 1);
-graph.addEdges(1, 3);
-graph.addEdges(1, 4);
+graph.addEdges(0, 2);
 graph.addEdges(2, 4);
-graph.showGraph(); // constructed graph
+graph.addEdges(1, 3);
+graph.showGraph();
+graph.graphDfs(0);
