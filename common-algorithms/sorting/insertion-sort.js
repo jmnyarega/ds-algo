@@ -9,4 +9,7 @@ function insertionSort(array) {
     // the last item we've reached should now hold the value of the currently sorted item
     array[j + 1] = value; // use var in the second to make j hoisted...
   }
+  return array;
 }
+const sorted = insertionSort([1, 0, 4, -1]);
+console.log(sorted);
