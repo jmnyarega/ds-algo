@@ -22,8 +22,21 @@ function fibDynamic(n) {
       val[i] = val[i - 1] + val[i - 2];
     }
   }
-  return n; // lists all fib numbers
+  return val[n - 1]; // lists all fib numbers
 }
 
-const nums = fibDynamic(10);
-console.log(nums, "here.....");
+function iterFib(n) {
+  let last = 1;
+  let nextLast = 1;
+  let result = 1;
+  for (let i = 2; i < n; ++i) {
+    result = nextLast + last;
+    nextLast = last;
+    last = result;
+  }
+  return result;
+}
+
+fibDynamic(10); // 55
+fib(10); // 55
+iterFib(10); // 55
