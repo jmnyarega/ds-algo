@@ -1,5 +1,20 @@
 /*
  * Using mergesort-like technique to count number of inversions
+ *
+ * PSEUDOCODE
+ * __________________
+ *
+ * Input: array A of n distinct integers.
+ * Output: sorted array B with the same integers, and
+ * the number of inversions of A.
+ *
+ * if n = 0 or n=1 then return (A, 0) // base case
+ * else
+ *  (C,leftInv) := Sort-and-CountInv(first half of A)
+ *  (D, rightInv) := Sort-and-CountInv(second half of A)
+ *  (B, splitInv) := Merge-and-CountSplitInv(C, D)
+ *  return (B,leftInv+rightInv+splitInv)
+ *
  */
 
 function countInv(A) {
