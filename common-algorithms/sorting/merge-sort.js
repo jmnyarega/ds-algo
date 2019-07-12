@@ -20,7 +20,7 @@ function merge(array1, array2) {
   let sortedArray = [];
 
   while(array1.length && array2.length) {
-    if (array1[0] <= array2[0]) sortedArray.push(array1.shift());
+    if (array1[0] <= array2[0]) sortedArray.push(array1.shift()); // @TODO implement using i and j 
     else sortedArray.push(array2.shift());
   }
 

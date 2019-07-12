@@ -15,6 +15,11 @@
  *  (B, splitInv) := Merge-and-CountSplitInv(C, D)
  *  return (B,leftInv+rightInv+splitInv)
  *
+ * NOTE: I am not sorting the array in my implementation, hence not C,D,B variables
+ *
+ * max number of inversions in an array of size n
+ *  (n(n -1)) / 2 i.e 6(5)/2 = 30 if n = 6
+ *
  */
 
 function countInv(A) {
@@ -22,10 +27,10 @@ function countInv(A) {
   else {
     const n = A.length;
     const mid = Math.floor(n / 2);
-    const a = countInv(A.slice(0, mid));
-    const b = countInv(A.slice(mid, n));
-    const c = merge(A.slice(0, mid), A.slice(mid, n));
-    return a + b + c;
+    const leftInv = countInv(A.slice(0, mid));
+    const rightInv = countInv(A.slice(mid, n));
+    const splitInv = merge(A.slice(0, mid), A.slice(mid, n));
+    return leftInv + rightInv + splitInv;
   }
 }
 
@@ -33,16 +38,14 @@ function merge(left, right) {
   let count = 0;
   let i = 0;
   let j = 0;
-  let leftLen = left.length; 
-  while(i < leftLen && j < right.length) {
-    if (left[i] <= right[j]) {
+  while(i < left.length && j < right.length) {
+    if (left[i] <= right[j]) { // self explanatory .... 
       i += 1;
     } else {
-      count += leftLen - i;
+      count += left.length - i;
       j += 1;
     } 
   }
   return count;
 }
-
-countInv([6,5,4,3,2,1]);
+countInv([6,5,4,3,2,1]); // 15
