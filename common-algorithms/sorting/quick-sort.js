@@ -1,6 +1,6 @@
 /*
  *
- * @TODO study and implement quick sort...
+ * Quick algorithm
  *
  */
 
@@ -19,12 +19,15 @@ function partition(A, startIndex, endIndex) {
       A[leftIndex] = temp;
     }
     else {
+      // This means left and right have crossed, we know that all the items smaller than - 
+      // the pivot are before left and all items larger than the pivot are after right
+      // This will be executed 4 times because, the array will be partitioned 4 times
       const temp = A[endIndex];
       A[endIndex] = A[leftIndex];
       A[leftIndex] = temp;
     }
   }
-  return leftIndex;
+  return leftIndex; // this will be the new pivot...
 }
 
 function quickSort(A, startIndex, endIndex) {
@@ -35,4 +38,6 @@ function quickSort(A, startIndex, endIndex) {
   return A;
 }
 
-quickSort([5, 1, 6, 8, 12, 0, 4], 0, [5, 1, 6, 8, 12, 0, 4].length - 1);
+const array = [5, 1, 6, 8, 12, 0, 2];
+
+quickSort(array, 0, array.length - 1);
