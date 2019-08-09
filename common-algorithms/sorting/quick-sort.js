@@ -5,7 +5,7 @@
  */
 
 function partition(A, startIndex, endIndex) {
-  const pivot = A[endIndex];
+  let pivot = A[medianIndex(A)];
   let leftIndex = startIndex;
   let rightIndex = endIndex - 1;
   while (leftIndex <= rightIndex) {
@@ -38,6 +38,13 @@ function quickSort(A, startIndex, endIndex) {
   return A;
 }
 
-const array = [5, 1, 6, 8, 12, 0, 2];
+function medianIndex(array) {
+  if (array.length <= 1) {
+    return array.length - 1;
+  } else {
+    return Math.ceil(array.length/2) - 1;
+  }
+}
 
-quickSort(array, 0, array.length - 1);
+const array = [5, 1, 6, 8, 12, 0, 2];
+quickSort(array, 0, array.length - 1); // [0, 1, 2, 5, 6, 8 12]
