@@ -1,11 +1,11 @@
 /*
  *
- * Quick algorithm
- *
+ * Quick algorithm uses in-place mechanism -> Reduces space complexity. No additional space grows with 
+ * the input... WIN Uses swaps instead.
  */
 
 function partition(A, startIndex, endIndex) {
-  let pivot = A[medianIndex(A)];
+  let pivot = A[endIndex];
   let leftIndex = startIndex;
   let rightIndex = endIndex - 1;
   while (leftIndex <= rightIndex) {
@@ -38,13 +38,6 @@ function quickSort(A, startIndex, endIndex) {
   return A;
 }
 
-function medianIndex(array) {
-  if (array.length <= 1) {
-    return array.length - 1;
-  } else {
-    return Math.ceil(array.length/2) - 1;
-  }
-}
-
-const array = [5, 1, 6, 8, 12, 0, 2];
-quickSort(array, 0, array.length - 1); // [0, 1, 2, 5, 6, 8 12]
+const array = [56, 26, 93, 17, 77, 31, 44, 55, 20];
+const sorted = quickSort(array, 0, array.length - 1);
+console.log(sorted);

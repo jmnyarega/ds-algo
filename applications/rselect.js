@@ -32,4 +32,5 @@
  *      return Rselect(first part of A i)
  *    else
  *      return Rselect(second part of A, i - j)
+ *    NOTE: to get the best out of Rselect, use median as the Pivot
  */

@@ -22,6 +22,7 @@ class Graph {
   }
 
   showGraph() {
+    console.log(this.adj)
     return this.adj;
   }
 

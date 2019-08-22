@@ -18,7 +18,7 @@ function mergeSort(array) {
 
 function merge(array1, array2) {
   let sortedArray = [];
-
+  console.log("Array1 -> ", array1, "array2 -> ",array2);
   while(array1.length && array2.length) {
     if (array1[0] <= array2[0]) sortedArray.push(array1.shift()); // @TODO implement using i and j 
     else sortedArray.push(array2.shift());
@@ -26,7 +26,7 @@ function merge(array1, array2) {
 
   while(array1.length) sortedArray.push(array1.shift());
   while(array2.length) sortedArray.push(array2.shift());
-
+  console.log("Sorted -> ", sortedArray);
   return sortedArray;
 }
-console.log(mergeSort([1,2,1,2,30,20,12,3,23,23,90,1,0,4]))
+mergeSort([54,26,93,17,77,31,44,55,20]);
