@@ -27,7 +27,6 @@ function bfs(graph, startingVertex) {
   // mark startingVertex as explored and other vertices unexplored
   const traverseMap = {}
   const route = []
-  // <code coming soon />
   traverseMap[startingVertex] = 'explored';
   //create a queue ds & initialize with s
   const queue = new Queue() 

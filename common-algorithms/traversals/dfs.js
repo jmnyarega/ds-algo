@@ -1,3 +1,4 @@
+const Stack = require('../../ds/stack/stack');
 /*
  * DFS
  * @method 1
@@ -33,3 +34,36 @@
  * 4.       DFS(G, )
  *
  */
+function traditional_dfs(graph, s) {
+  const stack = new Stack();
+  stack.push(s);
+  const explored = {};
+  while(stack.dataStore.length) {
+    let currVertex = stack.pop();
+    if (!explored[currVertex]) {
+      explored[currVertex] = 'explored';
+      console.log(currVertex ? currVertex : 'backtracking ...');
+      for (let i in graph[currVertex]) {
+        stack.push(graph[currVertex][i]);
+      }
+    }
+  }
+}
+const graph = { 
+  's': [ 'a', 'b'],
+  'a': [ 's', 'c'],
+  'c': [ 'b', 'e'],
+  'b': [ 's', 'c'],
+  'e': [ 'c', 'd'],
+  'd': [ 'e', 'c', 'b']
+};
+
+traditional_dfs(graph, 's');
+
+function recursion_dfs(graph, s) {
+  const traverseMap = {};
+  traverseMap[s] = 'explored';
+
+ }
+
+recursion_dfs(graph, 's');

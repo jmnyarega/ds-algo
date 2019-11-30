@@ -11,6 +11,9 @@
  * Example of hash keys -> sum of ASCII keys
  * Techniques to determine the array size is based on collisions.
  * The simpleHash() function computes a hash value by summing the ASCII value of each name using the JavaScript function charCodeAt() to return a character’s ASCII value.
+ *  Terms to research on:
+ *    - de-deplucation
+ *  - Use chaining with linked lists to resolve collisions
  */
 
 function HashTable() {
@@ -64,6 +67,7 @@ function put(key, data) {
 
 /*
  * Separate chaining
+ * Improve this soln with linked list
  */
 function buildChains() {
   for (let i = 0; i < this.table.length; ++i) {

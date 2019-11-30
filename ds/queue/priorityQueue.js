@@ -46,3 +46,5 @@ class PriorityQueue {
     console.log(JSON.stringify(this.items, null, 2));
   }
 }
+
+module.exports = PriorityQueue

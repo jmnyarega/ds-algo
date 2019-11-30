@@ -13,7 +13,7 @@ function enqueue(element) {
 }
 
 function dequeue() {
-  this.dataStore.shift();
+  return this.dataStore.shift()
 }
 
 function front() {
@@ -32,3 +32,4 @@ function isEmpty() {
   if (this.dataStore.length === 0) return true;
   return false;
 }
+module.exports = Queue;

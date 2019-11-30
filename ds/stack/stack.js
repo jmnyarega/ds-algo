@@ -13,7 +13,7 @@ function push(element) {
 }
 
 function pop() {
-  return this.dataStore[--this.top];
+  return this.dataStore.pop()
 }
 
 function peek() {
@@ -29,3 +29,5 @@ function clear() {
   // delete this.dataStore
   this.top = 0;
 }
+
+module.exports = Stack;

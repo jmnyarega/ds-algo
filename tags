@@ -1,0 +1,378 @@
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/rearrang-array-alternatively.js	/0/;"	v	lineno:30	namespace:rearrageInPlace.sortedArray	type:number
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/self-organized-data.js	/i\-1/;"	v	lineno:11	namespace:selfOrganize.arr	type:number
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/bubble-sort.js	/i/;"	v	lineno:8	namespace:bubbleSort.array	type:number
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/insertion-sort.js	/j \+ 1/;"	v	lineno:7	namespace:insertionSort.array	type:number
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/rightIndex/;"	v	lineno:18	namespace:partition.A	type:number
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/selection-sort.js	/i/;"	v	lineno:36	namespace:selectionSort.array	type:number
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/i/;"	v	lineno:20	namespace:Graph.marked	type:boolean
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/i/;"	v	lineno:11	namespace:Graph.adj	type:[number]
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/i/;"	v	lineno:12	namespace:Graph.marked	type:number
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/j/;"	v	lineno:17	namespace:Graph.adj.<i>	type:number
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/i/;"	v	lineno:74	namespace:HashTable.table	type:[?]
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/index \+ 1/;"	v	lineno:57	namespace:HashTable.table.<i>
+<i>	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/this\.listSize\+\+/;"	v	lineno:24	namespace:List.dataStore	type:string
+A	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/number-of-inversions-improved.js	/A/;"	v	lineno:25	namespace:countInv	type:[number]
+A	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/number-of-inversions.js	/A/;"	v	lineno:12	namespace:inversions	type:[number]
+A	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/A/;"	v	lineno:33	namespace:quickSort	type:[number]
+A	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/A/;"	v	lineno:7	namespace:partition	type:[number]
+BST	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/BST/;"	f	lineno:15	type:void function()
+Dictionary	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/Dictionary/;"	f	lineno:1	type:void function()
+Dictionary	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.test.js	/Dictionary/;"	v	lineno:1
+DoublyLinkedList	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/DoublyLinkedList/;"	f	lineno:13	type:void function()
+G	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/connectedGraphs.js	/G/;"	v	lineno:3	type:boolean
+Graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/Graph/;"	f	lineno:12	type:void function(number)
+Graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/Graph/;"	f	lineno:5	type:void function()
+HashTable	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/HashTable/;"	f	lineno:19	type:void function()
+Heap	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/heap.js	/Heap/;"	f	lineno:9	type:void function()
+LinkedList	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/LinkedList/;"	f	lineno:6	type:void function()
+LinkedList	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/LinkedList/;"	f	lineno:6	type:void function()
+List	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/List/;"	f	lineno:1	type:void function()
+PriorityQueue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dijkstra's.js	/PriorityQueue/;"	v	lineno:1
+PriorityQueue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/PriorityQueue/;"	f	lineno:8	type:void function()
+QElement	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/QElement/;"	f	lineno:1	type:void function(?, ?)
+Queue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/bfs.js	/Queue/;"	v	lineno:1
+Queue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/queue.js	/Queue/;"	f	lineno:1	type:void function()
+SearchTree	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/SearchTree/;"	f	lineno:9	type:void function()
+Stack	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/Stack/;"	v	lineno:1
+Stack	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/stack/stack.js	/Stack/;"	f	lineno:1	type:void function()
+V	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/connectedGraphs.js	/V/;"	v	lineno:3	type:number
+a	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/'a'/;"	v	lineno:54	namespace:graph	type:[string]
+addEdge	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/addEdge/;"	f	lineno:29	namespace:Graph.prototype	type:void function(number, number)
+addEdges	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/addEdges/;"	f	lineno:16	namespace:Graph.prototype	type:!this.adj function(number, number)
+adj	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/adj/;"	v	lineno:17	namespace:Graph	type:[[number]]
+adj	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/adj/;"	v	lineno:8	namespace:Graph	type:[[number]]
+after	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/after/;"	v	lineno:54	namespace:insert
+append	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/append/;"	f	lineno:23	type:void function(string)
+append	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/append/;"	f	lineno:9	namespace:names	type:void function(string)
+arr	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/findTriplets.js	/arr/;"	v	lineno:6	namespace:triplet	type:[number]
+arr	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/self-organized-data.js	/arr/;"	v	lineno:5	namespace:selfOrganize	type:[number]
+arr	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/binary-search.js	/arr/;"	v	lineno:8	namespace:binarySearch	type:[number]
+arr	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/linear-search.js	/arr/;"	v	lineno:7	namespace:linearSearch	type:[number]
+arr	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/maxmun-value.js	/arr/;"	v	lineno:5	namespace:maxValue	type:[number]
+arr	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/minimum-value.js	/arr/;"	v	lineno:6	namespace:minValue	type:[number]
+array	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/bubble-sort.js	/array/;"	v	lineno:2	namespace:bubbleSort	type:[number]
+array	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/insertion-sort.js	/array/;"	v	lineno:1	namespace:insertionSort	type:[number, number, number, number]
+array	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/merge-sort.js	/array/;"	v	lineno:6	namespace:mergeSort	type:[number]
+array	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/array/;"	v	lineno:41	type:[number]
+array	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/selection-sort.js	/array/;"	v	lineno:24	namespace:selectionSort	type:[number]
+array1	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/merge-sort.js	/array1/;"	v	lineno:19	namespace:merge	type:[number]
+array2	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/merge-sort.js	/array2/;"	v	lineno:19	namespace:merge	type:[number]
+b	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/'b'/;"	v	lineno:56	namespace:graph	type:[string]
+back	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/queue.js	/back/;"	f	lineno:23	type:!this.dataStore.<i> function()
+betterHash	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/betterHash/;"	f	lineno:26	namespace:hTable	type:number function(string)
+betterHash	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/betterHash/;"	f	lineno:38	type:number function(string)
+bfs	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/bfs.js	/bfs/;"	f	lineno:26	type:[?] function(Array[[string]], string)
+binarySearch	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/binary-search.js	/binarySearch/;"	f	lineno:8	type:number function(Array[number], number)
+breadthFirstTraversal	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/breadthFirstTraversal/;"	f	lineno:102	namespace:BST.prototype	type:void function(+BST)
+bst	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/bst/;"	v	lineno:205	type:BST
+bubbleSort	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/bubble-sort.js	/bubbleSort/;"	f	lineno:2	type:!0 function(Array[number])
+buildChains	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/buildChains/;"	f	lineno:25	namespace:hTable	type:void function()
+buildChains	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/buildChains/;"	f	lineno:72	type:void function()
+c	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/'c'/;"	v	lineno:55	namespace:graph	type:[string]
+cities	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/cities/;"	v	lineno:58	type:LinkedList
+cities	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/cities/;"	v	lineno:73	type:DoublyLinkedList
+cities	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/cities/;"	v	lineno:72	type:LinkedList
+clear	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/clear/;"	f	lineno:29	namespace:Dictionary.prototype	type:void function()
+clear	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/clear/;"	f	lineno:5	namespace:names	type:void function()
+clear	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/clear/;"	f	lineno:65	type:void function()
+clear	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/stack/stack.js	/clear/;"	f	lineno:27	type:void function()
+clock	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/clock.js	/clock/;"	f	lineno:5	type:clock.!ret function(?)
+coinChange	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/coin-change.js	/coinChange/;"	f	lineno:13	type:[number] function(number)
+contains	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/contains/;"	f	lineno:20	namespace:names	type:boolean function(?)
+contains	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/contains/;"	f	lineno:72	type:boolean function(?)
+countInv	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/number-of-inversions-improved.js	/countInv/;"	f	lineno:25	type:number function(Array[number])
+currPos	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/currPos/;"	f	lineno:108	type:!this.pos function()
+currPos	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/currPos/;"	f	lineno:16	namespace:names	type:!this.pos function()
+d	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/'d'/;"	v	lineno:58	namespace:graph	type:[string]
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/self-organized-data.js	/data/;"	v	lineno:5	namespace:selfOrganize	type:number
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/binary-search.js	/data/;"	v	lineno:8	namespace:binarySearch	type:number
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/linear-search.js	/data/;"	v	lineno:7	namespace:linearSearch	type:number
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/data/;"	v	lineno:30	namespace:simpleHash
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/data/;"	v	lineno:51	namespace:put
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/data/;"	v	lineno:155	namespace:BST.prototype.find
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/data/;"	v	lineno:171	namespace:BST.prototype.removeNode	type:number
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/data/;"	v	lineno:200	namespace:BST.prototype.remove
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/data/;"	v	lineno:21	namespace:BST.prototype.insert	type:number
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/data/;"	v	lineno:4	namespace:BST.prototype.breadthFirstTraversal.node.root	type:number
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/data/;"	v	lineno:4	namespace:MutationRecord.prototype.target	type:number
+data	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/data/;"	v	lineno:4	namespace:Node	type:number
+dataStore	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/dataStore/;"	v	lineno:4	namespace:List	type:[string]
+delete	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/heap.js	/delete/;"	f	lineno:16	namespace:Heap.prototype	type:void function()
+delete	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/delete/;"	f	lineno:18	namespace:SearchTree.prototype	type:void function()
+dequeue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/dequeue/;"	f	lineno:26	namespace:PriorityQueue.prototype	type:string function()
+dequeue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/queue.js	/dequeue/;"	f	lineno:15	type:void function()
+dictionary	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.test.js	/dictionary/;"	v	lineno:3
+display	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/display/;"	f	lineno:38	namespace:Dictionary.prototype	type:void function()
+display	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/display/;"	f	lineno:12	namespace:cities	type:string function()
+display	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/display/;"	f	lineno:48	type:string function()
+display	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/display/;"	f	lineno:20	namespace:cities	type:void function()
+display	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/display/;"	f	lineno:65	type:void function()
+display	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/display/;"	f	lineno:11	namespace:cities	type:string function()
+display	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/display/;"	f	lineno:47	type:string function()
+e	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/'e'/;"	v	lineno:57	namespace:graph	type:[string]
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/element/;"	v	lineno:2	namespace:MutationRecord.prototype.target	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/element/;"	v	lineno:2	namespace:Node	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/element/;"	v	lineno:32	namespace:remove	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/element/;"	v	lineno:39	namespace:findPrevious	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/element/;"	v	lineno:8	namespace:MutationRecord.prototype.target	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/element/;"	v	lineno:8	namespace:Node	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/element/;"	v	lineno:2	namespace:MutationRecord.prototype.target	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/element/;"	v	lineno:2	namespace:Node	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/element/;"	v	lineno:32	namespace:remove
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/element/;"	v	lineno:39	namespace:findPrevious
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/element/;"	v	lineno:23	namespace:append	type:string
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/element/;"	v	lineno:27	namespace:find
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/element/;"	v	lineno:36	namespace:remove
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/element/;"	v	lineno:54	namespace:insert
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/element/;"	v	lineno:72	namespace:contains
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/element/;"	v	lineno:13	namespace:PriorityQueue.prototype.enqueue
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/queue.js	/element/;"	v	lineno:11	namespace:enqueue
+element	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/stack/stack.js	/element/;"	v	lineno:11	namespace:push
+end	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/end/;"	f	lineno:12	namespace:names	type:void function()
+end	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/end/;"	f	lineno:92	type:void function()
+endIndex	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/endIndex/;"	v	lineno:33	namespace:quickSort	type:number
+endIndex	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/endIndex/;"	v	lineno:7	namespace:partition	type:number
+enqueue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/enqueue/;"	f	lineno:13	namespace:PriorityQueue.prototype	type:void function(?, ?)
+enqueue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/queue.js	/enqueue/;"	f	lineno:11	type:void function(?)
+extractMin	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/heap.js	/extractMin/;"	f	lineno:15	namespace:Heap.prototype	type:void function()
+fetch	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/tests/index.js	/fetch/;"	v	lineno:1
+fib	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/fibonacci.js	/fib/;"	f	lineno:5	type:!0 function(number)
+fibDynamic	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/fibonacci.js	/fibDynamic/;"	f	lineno:10	type:number function(number)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/find/;"	f	lineno:22	namespace:Dictionary.prototype	type:!this.dict.<i> function(?)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/find/;"	f	lineno:16	type:!this.head function(string)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/find/;"	f	lineno:9	namespace:cities	type:!this.head function(string)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/find/;"	f	lineno:16	namespace:cities	type:!this.head function(string)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/find/;"	f	lineno:31	type:!this.head function(string)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/find/;"	f	lineno:16	type:!this.head function(string)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/find/;"	f	lineno:8	namespace:cities	type:!this.head function(string)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/find/;"	f	lineno:27	type:number function(?)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/find/;"	f	lineno:6	namespace:names	type:number function(?)
+find	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/find/;"	f	lineno:155	namespace:BST.prototype	type:!this.root function(?)
+findLast	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/findLast/;"	f	lineno:18	namespace:cities	type:!this.head function()
+findLast	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/findLast/;"	f	lineno:47	type:!this.head function()
+findPrevious	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/findPrevious/;"	f	lineno:13	namespace:cities	type:!this.head function(string)
+findPrevious	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/findPrevious/;"	f	lineno:39	type:!this.head function(string)
+findPrevious	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/findPrevious/;"	f	lineno:12	namespace:cities	type:!this.head function(?)
+findPrevious	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/findPrevious/;"	f	lineno:39	type:!this.head function(?)
+front	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/front/;"	f	lineno:11	namespace:names	type:void function()
+front	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/front/;"	f	lineno:88	type:void function()
+front	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/front/;"	f	lineno:31	namespace:PriorityQueue.prototype	type:!this.items.0 function()
+front	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/queue.js	/front/;"	f	lineno:19	type:!this.dataStore.0 function()
+gcd	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/gcd.js	/gcd/;"	f	lineno:7	type:!0 function(number, number)
+gen	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/tests/index.js	/gen/;"	v	lineno:12
+get	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/get/;"	f	lineno:24	namespace:hTable	type:!this.table.<i> function(?)
+get	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/get/;"	f	lineno:79	type:!this.table.<i> function(?)
+getElement	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/getElement/;"	f	lineno:116	type:!this.dataStore.<i> function()
+getElement	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/getElement/;"	f	lineno:18	namespace:names	type:!this.dataStore.<i> function()
+getMax	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/getMax/;"	f	lineno:147	namespace:BST.prototype	type:!this.root.data function()
+getMin	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/getMin/;"	f	lineno:135	namespace:BST.prototype	type:!this.root.data function()
+getRandomInt	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/getRandomInt/;"	f	lineno:120	type:number function(number, number)
+getStuData	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/getStuData/;"	f	lineno:124	type:void function(getStuData.!0)
+getStuData	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/getStuData/;"	f	lineno:27	namespace:hTable	type:void function(getStuData.!0)
+graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/bfs.js	/graph/;"	v	lineno:26	namespace:bfs	type:[[string]]
+graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/bfs.js	/graph/;"	v	lineno:49	type:[[string]]
+graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/bfs.js	/graph/;"	v	lineno:77	namespace:shortestPath
+graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/graph/;"	v	lineno:52
+graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/pathsToVertex.js	/graph/;"	v	lineno:1	namespace:pathsToVertex	type:[[string], [string], [string], [string]]
+graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/pathsToVertex.js	/graph/;"	v	lineno:9	type:[[string], [string], [string], [string]]
+graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/graph/;"	v	lineno:64	type:Graph
+graph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/graph/;"	v	lineno:39	type:Graph
+graphBfs	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/graphBfs/;"	f	lineno:47	namespace:Graph.prototype	type:void function(?)
+graphDfs	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/graphDfs/;"	f	lineno:34	namespace:Graph.prototype	type:void function(?)
+graphDfs	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/graphDfs/;"	f	lineno:25	namespace:Graph.prototype	type:void function(number)
+guess	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/guessing-number-game.js	/guess/;"	v	lineno:7	namespace:guessingGame	type:number
+guessingGame	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/guessing-number-game.js	/guessingGame/;"	f	lineno:7	type:string function(number)
+hTable	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/hTable/;"	v	lineno:95	type:HashTable
+head	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/head/;"	v	lineno:7	namespace:cities	type:MutationRecord.prototype.target
+head	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/head/;"	v	lineno:14	namespace:cities	type:MutationRecord.prototype.target
+head	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/head/;"	v	lineno:7	namespace:cities	type:MutationRecord.prototype.target
+height	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/height/;"	f	lineno:119	namespace:BST.prototype	type:number function(+MutationRecord.prototype.target)
+i	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/i/;"	v	lineno:16	namespace:Graph.prototype.addEdges	type:number
+inorder	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/inorder/;"	f	lineno:62	namespace:BST.prototype	type:void function(?)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/insert/;"	f	lineno:7	namespace:Dictionary.prototype	type:!this.dict function(?, ?)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/insert/;"	f	lineno:10	namespace:cities	type:void function(string, string)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/insert/;"	f	lineno:25	type:void function(string, string)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/insert/;"	f	lineno:15	namespace:cities	type:void function(string, string)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/insert/;"	f	lineno:23	type:void function(string, string)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/insert/;"	f	lineno:25	type:void function(string, string)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/insert/;"	f	lineno:9	namespace:cities	type:void function(string, string)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/insert/;"	f	lineno:54	type:boolean function(?, ?)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/insert/;"	f	lineno:8	namespace:names	type:boolean function(?, ?)
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/heap.js	/insert/;"	f	lineno:14	namespace:Heap.prototype	type:void function()
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/insert/;"	f	lineno:17	namespace:SearchTree.prototype	type:void function()
+insert	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/insert/;"	f	lineno:21	namespace:BST.prototype	type:void function(number)
+insertionSort	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/insertion-sort.js	/insertionSort/;"	f	lineno:1	type:!0 function(Array[number)
+inversions	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/number-of-inversions.js	/inversions/;"	f	lineno:12	type:number function(Array[number])
+isEmpty	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/isEmpty/;"	f	lineno:34	namespace:Dictionary.prototype	type:boolean function()
+isEmpty	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/isEmpty/;"	f	lineno:41	namespace:PriorityQueue.prototype	type:boolean function()
+isEmpty	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/queue.js	/isEmpty/;"	f	lineno:31	type:boolean function()
+item	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/item/;"	v	lineno:16	namespace:find	type:string
+item	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/item/;"	v	lineno:25	namespace:insert	type:string
+item	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/item/;"	v	lineno:23	namespace:insert	type:string
+item	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/item/;"	v	lineno:31	namespace:find	type:string
+item	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/item/;"	v	lineno:39	namespace:remove	type:string
+item	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/item/;"	v	lineno:16	namespace:find	type:string
+item	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/item/;"	v	lineno:25	namespace:insert	type:string
+iterFib	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/fibonacci.js	/iterFib/;"	f	lineno:28	type:number function(number)
+j	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/insertion-sort.js	/j/;"	v	lineno:4	namespace:insertionSort	type:number
+j	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/j/;"	v	lineno:16	namespace:Graph.prototype.addEdges	type:number
+key	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/key/;"	v	lineno:15	namespace:Dictionary.prototype.remove
+key	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/key/;"	v	lineno:22	namespace:Dictionary.prototype.find
+key	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/key/;"	v	lineno:7	namespace:Dictionary.prototype.insert
+key	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/key/;"	v	lineno:51	namespace:put	type:string
+key	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/key/;"	v	lineno:79	namespace:get
+left	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/number-of-inversions-improved.js	/left/;"	v	lineno:37	namespace:merge	type:[number]
+left	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/left/;"	v	lineno:5	namespace:BST.prototype.breadthFirstTraversal.node.root	type:MutationRecord.prototype.target
+length	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/length/;"	f	lineno:15	namespace:names	type:!this.listSize function()
+length	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/length/;"	f	lineno:46	type:!this.listSize function()
+length	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/stack/stack.js	/length/;"	f	lineno:23	type:!this.top function()
+level	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/level/;"	v	lineno:109	namespace:BST.prototype.nodeLevel	type:number
+linearSearch	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/linear-search.js	/linearSearch/;"	f	lineno:7	type:number function(Array[number], number)
+listSize	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/listSize/;"	v	lineno:2	namespace:List	type:number
+m	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/connectedGraphs.js	/m/;"	v	lineno:23	type:number
+marked	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/marked/;"	v	lineno:16	namespace:Graph	type:[bool]
+marked	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/marked/;"	v	lineno:9	namespace:Graph	type:[number]
+matrixMultiplication	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/matrix-multiplication-improved.js	/matrixMultiplication/;"	f	lineno:10	type:number function(?, ?)
+matrixMultiplication	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/matrix-multiplication.js	/matrixMultiplication/;"	f	lineno:6	type:[!0.length] function(Array[[number], Array[[number])
+max	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/max/;"	v	lineno:120	namespace:getRandomInt	type:number
+max	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/max/;"	f	lineno:13	namespace:SearchTree.prototype	type:void function()
+maxValue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/maxmun-value.js	/maxValue/;"	f	lineno:5	type:!0.0 function(Array[number])
+merge	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/number-of-inversions-improved.js	/merge/;"	f	lineno:37	type:number function(Array[number], Array[number])
+merge	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/merge-sort.js	/merge/;"	f	lineno:19	type:[number] function(Array[number], Array[number])
+mergeSort	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/merge-sort.js	/mergeSort/;"	f	lineno:6	type:!0 function(Array[number])
+min	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/min/;"	v	lineno:120	namespace:getRandomInt	type:number
+min	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/min/;"	f	lineno:12	namespace:SearchTree.prototype	type:void function()
+minValue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/search/minimum-value.js	/minValue/;"	f	lineno:6	type:!0.0 function(Array[number])
+moveTo	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/moveTo/;"	f	lineno:112	type:void function(?)
+moveTo	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/moveTo/;"	f	lineno:17	namespace:names	type:void function(?)
+multiply	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/integer-multiplication.js	/multiply/;"	f	lineno:13	type:number function(number, number)
+n	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/fibonacci.js	/n/;"	v	lineno:10	namespace:fibDynamic	type:number
+n	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/fibonacci.js	/n/;"	v	lineno:28	namespace:iterFib	type:number
+n	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/fibonacci.js	/n/;"	v	lineno:5	namespace:fib	type:number
+n	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/connectedGraphs.js	/n/;"	v	lineno:23	type:number
+n	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/n/;"	v	lineno:47	namespace:Graph.prototype.graphBfs
+names	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/names/;"	v	lineno:120	type:List
+newElement	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/newElement/;"	v	lineno:25	namespace:insert	type:string
+newElement	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/newElement/;"	v	lineno:23	namespace:insert	type:string
+newElement	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/newElement/;"	v	lineno:25	namespace:insert	type:string
+next	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/next/;"	v	lineno:3	namespace:Node	type:Node
+next	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/next/;"	v	lineno:9	namespace:Node	type:Node
+next	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/next/;"	v	lineno:3	namespace:Node	type:Node
+next	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/next/;"	v	lineno:64	namespace:cities.head	type:MutationRecord.prototype.target
+next	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/next/;"	f	lineno:102	type:void function()
+next	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/next/;"	f	lineno:14	namespace:names	type:void function()
+node	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/node/;"	v	lineno:102	namespace:BST.prototype.breadthFirstTraversal	type:BST
+node	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/node/;"	v	lineno:109	namespace:BST.prototype.nodeLevel	type:BST
+node	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/node/;"	v	lineno:119	namespace:BST.prototype.height	type:MutationRecord.prototype.target
+node	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/node/;"	v	lineno:171	namespace:BST.prototype.removeNode	type:MutationRecord.prototype.target
+nodeLevel	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/nodeLevel/;"	f	lineno:109	namespace:BST.prototype	type:void function(+BST, number)
+number	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/guessing-number-game.js	/number/;"	v	lineno:5	type:number
+orgnAmt	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/coin-change.js	/orgnAmt/;"	v	lineno:13	namespace:coinChange	type:number
+outputSorted	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/outputSorted/;"	f	lineno:16	namespace:SearchTree.prototype	type:void function()
+p	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/gcd.js	/p/;"	v	lineno:7	namespace:gcd	type:number
+partition	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/partition/;"	f	lineno:7	type:!1 function(Array[number], number, number)
+pathsToVertex	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/pathsToVertex.js	/pathsToVertex/;"	f	lineno:1	type:void function(Array[[string], string)
+peek	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/stack/stack.js	/peek/;"	f	lineno:19	type:!this.dataStore.<i> function()
+pop	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/stack/stack.js	/pop/;"	f	lineno:15	type:void function()
+pos	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/pos/;"	v	lineno:3	namespace:List	type:number
+position	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/position/;"	v	lineno:112	namespace:moveTo
+postorder	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/postorder/;"	f	lineno:86	namespace:BST.prototype	type:void function(?)
+predecessor	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/predecessor/;"	f	lineno:14	namespace:SearchTree.prototype	type:void function()
+preorder	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/preorder/;"	f	lineno:73	namespace:BST.prototype	type:void function(?)
+prev	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/prev/;"	v	lineno:10	namespace:Node.next	type:MutationRecord.prototype.target
+prev	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/prev/;"	f	lineno:13	namespace:names	type:void function()
+prev	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/prev/;"	f	lineno:96	type:void function()
+printQueue	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/printQueue/;"	f	lineno:45	namespace:PriorityQueue.prototype	type:void function()
+priority	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/priority/;"	v	lineno:13	namespace:PriorityQueue.prototype.enqueue
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/class Dictionary \{/;"	v	lineno:1	namespace:Dictionary
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/class Graph \{/;"	v	lineno:12	namespace:Graph
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/class Graph \{/;"	v	lineno:5	namespace:Graph
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/class PriorityQueue \{/;"	v	lineno:8	namespace:PriorityQueue
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/class QElement \{/;"	v	lineno:1	namespace:QElement
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/heap.js	/class Heap \{/;"	v	lineno:9	namespace:Heap
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/class SearchTree \{/;"	v	lineno:9	namespace:SearchTree
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/class BST \{/;"	v	lineno:15	namespace:BST
+prototype	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/class Node \{/;"	v	lineno:1	namespace:Node
+push	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/stack/stack.js	/push/;"	f	lineno:11	type:void function(?)
+put	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/put/;"	f	lineno:23	namespace:hTable	type:void function(string, ?)
+put	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/put/;"	f	lineno:51	type:void function(string, ?)
+q	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/gcd.js	/q/;"	v	lineno:7	namespace:gcd	type:number
+quickSort	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/quickSort/;"	f	lineno:33	type:!0 function(Array[number], number, number)
+rank	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/rank/;"	f	lineno:20	namespace:SearchTree.prototype	type:void function()
+rear	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/priorityQueue.js	/rear/;"	f	lineno:36	namespace:PriorityQueue.prototype	type:!this.items.<i> function()
+rearrageInPlace	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/rearrang-array-alternatively.js	/rearrageInPlace/;"	f	lineno:26	type:void function(Array[number])
+rearrangeArray	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/rearrang-array-alternatively.js	/rearrangeArray/;"	f	lineno:9	type:[!0.<i>] function(?)
+recursion_dfs	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/recursion_dfs/;"	f	lineno:63	type:void function(graph, string)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/remove/;"	f	lineno:15	namespace:Dictionary.prototype	type:void function(?)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/remove/;"	f	lineno:11	namespace:cities	type:void function(string)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/circular-linked-list.js	/remove/;"	f	lineno:32	type:void function(string)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/remove/;"	f	lineno:17	namespace:cities	type:void function(string)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/remove/;"	f	lineno:39	type:void function(string)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/remove/;"	f	lineno:10	namespace:cities	type:void function(?)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/remove/;"	f	lineno:32	type:void function(?)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/remove/;"	f	lineno:10	namespace:names	type:boolean function(?)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/remove/;"	f	lineno:36	type:boolean function(?)
+remove	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/remove/;"	f	lineno:200	namespace:BST.prototype	type:void function(?)
+removeNode	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/removeNode/;"	f	lineno:171	namespace:BST.prototype	type:!0.left function(+MutationRecord.prototype.target, number)
+reverse	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/reverse/;"	f	lineno:19	namespace:cities	type:!this.head function()
+reverse	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/doubly-linked-list.js	/reverse/;"	f	lineno:55	type:!this.head function()
+reverse	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/reverse/;"	f	lineno:13	namespace:cities	type:void function()
+reverse	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/linkedList/linked-list.js	/reverse/;"	f	lineno:57	type:void function()
+right	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/number-of-inversions-improved.js	/right/;"	v	lineno:37	namespace:merge	type:[number]
+right	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/right/;"	v	lineno:6	namespace:BST.prototype.breadthFirstTraversal.node.root.left	type:MutationRecord.prototype.target
+root	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/root/;"	v	lineno:18	namespace:BST	type:Node
+root	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/root/;"	v	lineno:18	namespace:BST.prototype.breadthFirstTraversal.node	type:MutationRecord.prototype.target
+root	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/root/;"	v	lineno:62	namespace:BST.prototype.inorder
+root	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/root/;"	v	lineno:73	namespace:BST.prototype.preorder
+root	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/root/;"	v	lineno:86	namespace:BST.prototype.postorder
+s	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/bfs.js	/s/;"	v	lineno:77	namespace:shortestPath
+s	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/'s'/;"	v	lineno:53	namespace:graph	type:[string]
+s	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/s/;"	v	lineno:37	namespace:traditional_dfs	type:string
+s	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/s/;"	v	lineno:63	namespace:recursion_dfs	type:string
+search	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/search/;"	f	lineno:11	namespace:SearchTree.prototype	type:void function()
+select	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/select/;"	f	lineno:19	namespace:SearchTree.prototype	type:void function()
+selectionSort	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/selection-sort.js	/selectionSort/;"	f	lineno:24	type:!0 function(Array[number])
+selfOrganize	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/self-organized-data.js	/selfOrganize/;"	f	lineno:5	type:number function(Array[number], number)
+set	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/sets/set.test.js	/set/;"	v	lineno:3	type:Set
+shortestPath	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/bfs.js	/shortestPath/;"	f	lineno:77	type:void function(?, ?)
+show	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/tree.js	/show/;"	f	lineno:9	namespace:Node.prototype	type:!this.data function()
+showDistro	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/showDistro/;"	f	lineno:22	namespace:hTable	type:void function()
+showDistro	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/showDistro/;"	f	lineno:83	type:void function()
+showGraph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/showGraph/;"	f	lineno:24	namespace:Graph.prototype	type:!this.adj function()
+showGraph	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/showGraph/;"	f	lineno:21	namespace:Graph.prototype	type:!this.adj function()
+simpleHash	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/simpleHash/;"	f	lineno:21	namespace:hTable	type:number function(?)
+simpleHash	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/simpleHash/;"	f	lineno:30	type:number function(?)
+someNames	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/someNames/;"	v	lineno:92	type:[string]
+sort	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/sort/;"	f	lineno:46	namespace:Dictionary.prototype	type:void function()
+sorted	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/bubble-sort.js	/sorted/;"	v	lineno:16	type:[number]
+sorted	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/insertion-sort.js	/sorted/;"	v	lineno:14	type:[number, number, number, number]
+sorted	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/array/;"	v	lineno:41	type:[number]
+sorted	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/sorted/;"	v	lineno:42	type:[number]
+sorted	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/selection-sort.js	/sorted/;"	v	lineno:42	type:[number]
+sortedArray	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/rearrang-array-alternatively.js	/sortedArray/;"	v	lineno:26	namespace:rearrageInPlace	type:[number]
+sortedArray	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/rearrang-array-alternatively.js	/sortedArray/;"	v	lineno:9	namespace:rearrangeArray
+startIndex	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/startIndex/;"	v	lineno:33	namespace:quickSort	type:number
+startIndex	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/sorting/quick-sort.js	/startIndex/;"	v	lineno:7	namespace:partition	type:number
+startingVertex	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/bfs.js	/startingVertex/;"	v	lineno:26	namespace:bfs	type:string
+string	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/string/;"	v	lineno:38	namespace:betterHash	type:string
+successor	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/tree/searchTree.js	/successor/;"	f	lineno:15	namespace:SearchTree.prototype	type:void function()
+table	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/hash/hashTable.js	/table/;"	v	lineno:20	namespace:HashTable	type:[[?]]
+time	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/clock.js	/time/;"	v	lineno:5	namespace:clock
+toString	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/toString/;"	f	lineno:50	type:!this.dataStore function()
+toString	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/list/list.js	/toString/;"	f	lineno:7	namespace:names	type:!this.dataStore function()
+toString	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/queue/queue.js	/toString/;"	f	lineno:27	type:void function()
+traditional_dfs	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/dfs.js	/traditional_dfs/;"	f	lineno:37	type:void function(graph, string)
+triplet	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/findTriplets.js	/triplet/;"	f	lineno:6	type:boolean function(Array[number])
+v	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/common-algorithms/traversals/pathsToVertex.js	/v/;"	v	lineno:1	namespace:pathsToVertex	type:string
+v	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/v/;"	v	lineno:29	namespace:Graph.prototype.addEdge	type:number
+v	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/v/;"	v	lineno:34	namespace:Graph.prototype.graphDfs
+v	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-matrix.js	/v/;"	v	lineno:25	namespace:Graph.prototype.graphDfs	type:number
+value	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/dictionary/dictionary.js	/value/;"	v	lineno:7	namespace:Dictionary.prototype.insert
+vertices	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/vertices/;"	v	lineno:15	namespace:graph
+w	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/ds/graphs/adjancency-list.js	/w/;"	v	lineno:29	namespace:Graph.prototype.addEdge	type:number
+x	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/integer-multiplication.js	/x/;"	v	lineno:13	namespace:multiply	type:number
+x	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/matrix-multiplication-improved.js	/x/;"	v	lineno:10	namespace:matrixMultiplication
+x	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/matrix-multiplication.js	/x/;"	v	lineno:6	namespace:matrixMultiplication	type:[[number], [number]]
+y	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/integer-multiplication.js	/y/;"	v	lineno:13	namespace:multiply	type:number
+y	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/matrix-multiplication-improved.js	/y/;"	v	lineno:10	namespace:matrixMultiplication
+y	/Users/josiahnyarega/Documents/Projects/ds-algo-in-js/applications/matrix-multiplication.js	/y/;"	v	lineno:6	namespace:matrixMultiplication	type:[[number], [number]]
