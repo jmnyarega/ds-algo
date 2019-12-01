@@ -1,11 +1,11 @@
-/* HelloWorld.java
+/* Rearrange.java
+ *
  */
-import java.util.*;
 
-public class Rearrange
-{
+import java.util.Arrays;
 
-  static public void rearrangePositiveNegative(int arr[]) {
+public class Rearrange {
+  static public int[] rearrangePositiveNegative(int arr[]) {
     int j = 0;
     for (int i = 0; i < arr.length - 1; i++) {
       j = i + 1;
@@ -21,10 +21,10 @@ public class Rearrange
         arr[j] = temp;
       }
     }
-    System.out.println(Arrays.toString(arr));
+    return arr;
   }
   public static void main(String[] args) {
     int arr[] = {-1, 2, -3, 4, 5, 6, -7, 8, -9, 0, 1, 2};
-    Rearrange.rearrangePositiveNegative(arr);
+    System.out.println(Arrays.toString(Rearrange.rearrangePositiveNegative(arr)));
   }
 }

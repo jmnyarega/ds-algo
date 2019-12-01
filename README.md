@@ -1,2 +1,2 @@
-# ds-algo-in-js
-data structures &amp; algorithms in plain Javascript
+# ds-algo
+data structures &amp; algorithms
