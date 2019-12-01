@@ -7,4 +7,3 @@ function rotations(array) {
   }
   return counter
 }
-

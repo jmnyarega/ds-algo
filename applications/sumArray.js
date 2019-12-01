@@ -32,6 +32,7 @@ function findRotatedArrayPairs(array, sum) {
     let l = r + 1
     let rCounter = 0
     let pairs = []
+    // @TODO use % (modulo) instead of resetting the array
     while(rCounter <= array.length / 2) {
        if (l > array.length - 1) l = 0
        if (r < 0) r = array.length - 1
