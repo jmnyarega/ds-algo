@@ -3,7 +3,7 @@ class Dictionary {
     this.dict = {};
     this.length = 0;
   }
-  
+
   insert(key, value) {
     if (!this.dict[key]) {
       this.dict[key] = value;

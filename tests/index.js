@@ -8,5 +8,6 @@ async function test() {
     //   return json;
     // })
 }
+console.log('josiah nyarega')
 
 const gen = test()

@@ -6,25 +6,31 @@ import java.util.Arrays;
 
 public class Rearrange {
   static public int[] rearrangePositiveNegative(int arr[]) {
-    int j = 0;
-    for (int i = 0; i < arr.length - 1; i++) {
-      j = i + 1;
-      if ((i % 2 == 0) && arr[i] < 0) {
-       int temp = arr[i];
-       arr[i] = arr[j];
-       arr[j] = temp;
-       i--;
-       j--;
-      } else if ((i % 2 == 1) && arr[i] >= 0) {
+    int j = 1;
+    int i = 0;
+    while(i < arr.length) {
+      if((arr[i] > 0 && arr[j] < 0)) {
+        i++;
+        j++;
+      } else if ((arr[i] < 0 && arr[j] < 0) || (arr[i] > 0 && arr[j] > 0)) {
+        System.out.println(arr[i] + "  " + arr[j] + " " + Arrays.toString(arr) + "i" + i + "j" + j);
+        j++;
+        break;
+      } else if (arr[i] < 0 && arr[j] > 0) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+        System.out.println("i => "+ i+"j "+j);
       }
+      j++;
+      i++;
     }
+    System.out.println(Arrays.toString(arr));
     return arr;
   }
   public static void main(String[] args) {
-    int arr[] = {-1, 2, -3, 4, 5, 6, -7, 8, -9, 0, 1, 2};
-    System.out.println(Arrays.toString(Rearrange.rearrangePositiveNegative(arr)));
+    int arr[] = {1, -1, -2, 5, 3, -4, -1, 4};
+    System.out.println("Testing");
+    Rearrange.rearrangePositiveNegative(arr);
   }
 }
