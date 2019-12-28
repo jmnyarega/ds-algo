@@ -1,12 +1,11 @@
 /*
- *
  * Using greedy algorithm
  *
- * starts with the highest denomination, quarters, and tries to make as much change - 
- * with them as possible. The total number of quarters is stored in the coins array. - 
- * Once the amount left becomes less than a quarter, the algorithm moves to dimes, - 
- * making as much change with dimes as possible. The total number of dimes is then - 
- * stored in the coins array. The algorithm then moves to nickels and pennies in the same manner. 
+ * starts with the highest denomination, quarters, and tries to make as much change -
+ * with them as possible. The total number of quarters is stored in the coins array. -
+ * Once the amount left becomes less than a quarter, the algorithm moves to dimes, -
+ * making as much change with dimes as possible. The total number of dimes is then -
+ * stored in the coins array. The algorithm then moves to nickels and pennies in the same manner.
  *
  */
 

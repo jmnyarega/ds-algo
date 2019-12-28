@@ -1,4 +1,4 @@
-/* 
+/*
  * Diagraph
  * multigraph -> A graph with multiple edges
  * general graph(pseudograph) -> both self-loops and parallel edges allowed
@@ -8,7 +8,6 @@
  * Wighted directed graphs are ofted refered to as a networks
  *
  */
-
 class Graph {
 
   constructor(vertices) {
