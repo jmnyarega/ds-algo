@@ -92,9 +92,9 @@ function addToHeaps() {
     if (median === 0) { max.add(x); median = x; }
     if (x > median) {
       min.add(x);
-      console.log('Item added to min heap')
+      console.log('Item added to heap')
     }
-    // rebalance
+    // re-balance
     if ((max.items.length - min.items.length) > 1) min.add(max.poll());
     if ((min.items.length - max.items.length) > 1) max.add(min.poll());
     if (max.items.length === 0 && min.items.length === 1) median = min.peek();
@@ -103,7 +103,7 @@ function addToHeaps() {
     }
     else if ((max.items.length - min.items.length) === 1) median = max.peek();
     else if ((min.items.length - min.items.length) === 1) median = min.peek();
-    console.log(min.items, max.items, Math.floor(median))
+    console.log('min heap', min.items, 'max heap', max.items, Math.floor(median))
   }
 }
 
