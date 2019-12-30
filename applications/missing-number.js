@@ -7,6 +7,5 @@ function missingNumber(arr, n, m) {
   }
 }
 
-
-const missing = missingNumber([0, 1, 2, 6, 9], 5, 10);
+const missing = missingNumber([0,1,2,3,9], 5, 10);
 console.log(missing); // 3

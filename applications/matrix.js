@@ -13,7 +13,6 @@ function Matrix(rows, cols) {
 
 Matrix.prototype.multiply = function(n) {
   if (n instanceof Matrix) {
-    // matrix product
     if (this.cols !== n.rows) {
       return;
     } else {
@@ -23,7 +22,7 @@ Matrix.prototype.multiply = function(n) {
       for (let i = 0; i < result.rows; i++) {
         for (let j = 0; j < result.cols; j++) {
           let sum = 0;
-          for (let k = 0; k < a.cols; k++) {
+            for (let k = 0; k < b.cols; k++) {
             sum += a.matrix[i][k] * b.matrix[k][j];
           }
           result.matrix[i][j] = sum;
@@ -38,6 +37,16 @@ Matrix.prototype.multiply = function(n) {
       }
     }
   }
+}
+
+Matrix.prototype.dotMultplication = function(n) {
+  let result = new Matrix(this.rows, n.cols);
+  result = result.matrix;
+  return result.map((row, i) => {
+    return row.map((val, j) => {
+      return this.matrix[i].reduce((sum, elm, k) => sum + (elm*n.matrix[k][j]) ,0)
+    })
+  })
 }
 
 Matrix.prototype.add = function(n) {
@@ -64,8 +73,8 @@ Matrix.prototype.randomize = function() {
   }
 }
 
-const m1 = new Matrix(3,3);
-const m2 = new Matrix(3,3);
-m2.randomize();
-m1.randomize();
-console.log(m2.multiply(m1));
+const m1 = new Matrix(2,2);
+const m2 = new Matrix(2,2);
+m2.matrix = [ [2, 3], [4, 5] ];
+m1.matrix = [ [9, 1], [7, 8] ];
+const multiplication = m1.multiply(m2);
